@@ -60,12 +60,8 @@ Generates static content into the `build` directory, ready for any static hostin
 2. Edit `docusaurus.config.js` to set your site title, URL, and organization name.
 3. Replace content in `docs/` and `blog/` with your own.
 4. Update static assets in `static/` (favicon, logo).
-5. Push to your fork — the included GitHub Actions workflow deploys to GitHub Pages.
+5. Enable GitHub Pages with GitHub Actions as the publishing source in your fork's repository settings. Push to `main` to run the included build and deployment workflow.
 
 ## Contributing
 
 Contributions are welcome. See the [Contributing to the Docs](https://redhatofficial.github.io/static-website-template-for-ospo/docs/contributing-to-docs) guide for details on editing documentation pages.
-
-## License
-
-This project is licensed under the Apache License 2.0. See [LICENSE](LICENSE) for details.
